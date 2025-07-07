@@ -10,6 +10,6 @@ function toCamelCase(str) {
         .join('');
 }
 
-// Example usage:
+// Example usages:
 console.log(toCamelCase("hello world")); // "helloWorld"
 console.log(toCamelCase("my-variable_name")); // "myVariableName"

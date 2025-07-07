@@ -2,7 +2,7 @@ function toKebabCase(str) {
     // Step 1: Lowercase and replace spaces with hyphens
     let kebab = str.toLowerCase().replace(/\s+/g, '-');
 
-    // Step 2: Handle camelCase and PascalCase
+    // Step 2: Handle camelCase and PascalCase dfs
     kebab = str
         .replace(/([a-z0-9])([A-Z])/g, '$1-$2') // insert hyphen between lower/number and upper
         .replace(/\s+/g, '-') // replace spaces with hyphens
